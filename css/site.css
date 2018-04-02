@@ -1,0 +1,56 @@
+body{
+    background-image: url(../image/main_bg.png);
+    background-color: #f5f5f5;
+    background-size: cover;
+    -webit-background-size:cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.padding{
+    padding: 20px;
+}
+.padding--lg{
+    padding: 45px;
+}
+
+.profile-card{
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+}
+.profile-card .profile-card__header{
+    background: #29C374;
+    margin-bottom: 45px;
+}
+.profile-card .profile-card__header .profile-header__name{
+    color: white;
+}
+.profile-card .profile-card__header .profile-header__position{
+    color: white;
+}
+.profile-card .profile-card__header .profile-card__photo__wrapper{
+    max-width: 200px;
+    margin:0 auto;
+    margin-bottom: -40px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-card .profile-card__header .profile-card__photo__wrapper:hover{
+    -webkit-transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -o-transform:translateY(-9px);
+    transform: translateY(-9px);
+    -webkit-box-shadow:0 18px 24px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 18px 24px rgba(0,0,0,0.15);
+    box-shadow: 0px 18px 24px rgba(0,0,0,0.15);
+}
+
+.profile-card .profile-card__header .profile-card__photo__wrapper img{
+    width: 100%;
+    height: auto;
+}
